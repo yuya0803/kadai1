@@ -1,5 +1,5 @@
-#ifndef _CALC1_H_
-#define _CALC1_H_
+#ifndef _CALC_H_
+#define _CALC_H_
 
 int sigmakk(int, int);
 
@@ -9,4 +9,4 @@ int nkaijo(int, int);
 
 int combnm(int, int);
 
-#endif // _CALC1_H_
+#endif // _CALC_H_
