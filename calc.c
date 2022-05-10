@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "calc.h"
 
-/*引数kとnを用いてk^2をnまで足す*/
 int sigmakk(int k, int n)
 {
     int sum1=0;
@@ -14,7 +13,7 @@ int sigmakk(int k, int n)
     return sum1;
 }
 
-/*引数kとnを用いて1/k^2をnまで足す*/
+
 double sekiwa(int k, int n)
 {
     double sum2=1.0;
@@ -27,7 +26,7 @@ double sekiwa(int k, int n)
     return sum2;
 }
 
-/*引数kとnを用いてnまでの階乗を計算*/
+
 int nkaijo(int k,int n)
 {
     int fact=1;
@@ -38,9 +37,7 @@ int nkaijo(int k,int n)
     }
 
     return fact;
-}
 
-/*引数nとmを用いてnCmを計算*/
 int combnm(int n,int m)
 {
     int i,a,b;
